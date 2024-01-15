@@ -39,13 +39,13 @@ function randN3(from, to){
 }
 
 //Function Expression
-const randN4 = function(from, to){//безименна функція
+const randN4 = function(from, to){//анонімна функція
     const n = Math.floor(Math.random() * (to - from + 1) + from);
 
     console.log(n);
 }
 
-const randN6 = (from, to) => {//безименна функція
+const randN6 = (from, to) => {//анонімна функція
     const n = Math.floor(Math.random() * (to - from + 1) + from);
 
     console.log(n);
